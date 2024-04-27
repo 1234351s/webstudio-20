@@ -1,0 +1,22 @@
+:root {
+  --blue-gray-color: rgb(43, 74, 97);
+}
+.container {
+  width: 1440px;
+  height: 100%;
+  margin: auto;
+  padding: 0%;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav-item {
+  margin-right: 38px;
+}
+
+.header-nav-item:last-child {
+  margin-right: 0;
+}
