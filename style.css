@@ -1,0 +1,19 @@
+:root {
+  --blue-gray-color: rgb(43, 74, 97);
+}
+.header-flex {
+  display: flex;
+}
+.container {
+  width: 1440px;
+  height: 150px;
+  --background-color: var(--blue-gray-color);
+}
+header-nav-list {
+  display: flex;
+}
+.header-nav-item:nth-child(-n + 5) {
+  margin-bottom: 38px;
+  weight: 48px;
+  height: 24px;
+}
