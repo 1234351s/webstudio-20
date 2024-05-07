@@ -28,9 +28,10 @@
 }
 .header-nav-list {
   display: flex;
+  transition: var(--hover-color) 0.3s ease;
 }
 .link-golovna {
-  color: var(--hover-color);
+  color: var(--white-color);
 }
 .link-aboutus {
   color: var(--white-color);
@@ -111,9 +112,6 @@
 .hero-list {
   margin-left: 178px;
   padding-top: 180px;
-}
-.hero-social {
-  display: flex;
   align-items: center;
 }
 .hero-text {
@@ -146,16 +144,27 @@
   cursor: pointer;
   font-family: "Headlandone", serif;
 }
-.hero-list {
+.hero-list-img {
+  position: relative;
+  left: 1186px;
+  bottom: 200px;
   gap: 25px;
-  margin-right: 674px;
+  vertical-align: middle;
+  flex-direction: column-reverse;
+}
+.eng {
+  margin-right: 10px;
+}
+.ua {
+  margin-left: 10px;
+}
+.hero-list-img {
+  display: flex;
 }
 .hero-social {
+  justify-content: center;
   width: 30px;
   height: 30px;
-}
-.instagram {
-  
 }
 .quotes {
   text-align: center;
